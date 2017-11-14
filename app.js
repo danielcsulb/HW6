@@ -12,14 +12,18 @@ function like() {
     likes = likes + 1;
 }
 
-function candidateslist() {
-    var item = document.getElementById("candidateinput").value
-    var text = document.createTextNode(item)
-    var newitem = document.createElement("li")
-    newitem.appendChild(text)
-    document.getElementById("candidateslist").appendChild(newitem)
-}
+function candidatesList() {
 
+    var item = document.getElementById('candidateInput').value
+
+    var text = document.createTextNode(item)
+
+    var newItem = document.createElement('li')
+
+    newItem.appendChild(text)
+
+    document.getElementById('candidatesList').appendChild(newItem)
+}
 
 // function list() {
 // for (var i = 0; i < candidates.length; i++) {
@@ -28,6 +32,6 @@ function candidateslist() {
 // }
 // }
 
-const output = document.getElementById("output");
+// const output = document.getElementById("output");
 // output.innerHTML = 'The current messages are: ';
-output2.innerHTML = list().innerHTML;
+// output2.innerHTML = list().innerHTML;

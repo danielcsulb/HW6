@@ -15,24 +15,19 @@
 
     <h1>Candidate List</h1>
 
-
-    <form id="addCandidate" action="/action_page.php" method="post">
-        <input id="candidateinput" type="text" name="fname" required>
-        <button style="font-size:24px" onclick="candidateslist()">Add <i class="fa fa-group"></i></button>
-        <!-- <input type="submit" value="Create"> -->
+    <form id="candidateForm">
+        <input type="text" id="candidateInput">
+        <button type="button" onclick="candidatesList()">Add Item</button>
     </form>
 
-
-    <ul id="candidateslist">
-
-    </ul>
+    <ul id="candidatesList"></ul>
 
 
 
-    <p type="text" id="show">
+    <!-- <p type="text" id="show"> -->
+    <!-- </p> -->
 
-    </p>
-    <button style="font-size:24px" onclick="like()">Like <i class="fa fa-thumbs-o-up"></i></button>
+    <!-- <button style="font-size:24px" onclick="like()">Like <i class="fa fa-thumbs-o-up"></i></button> -->
     <!-- <button style="font-size:24px">Add <i class="fa fa-group"></i></button> -->
 
 
