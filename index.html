@@ -13,12 +13,27 @@
 <body>
     <h2>Daniel Mendia HW 6</h2>
 
-    <div id="Candidate List">Candidate List</div>
-    <p id="output"></p>
-    <p id="output2"></p>
-    <div id="Create a Candidate"></div>
-    <button style="font-size:24px">Like <i class="fa fa-thumbs-o-up"></i></button>
-    <button style="font-size:24px">Create <i class="fa fa-thumbs-o-up"></i></button>
+    <h1>Candidate List</h1>
+
+
+    <form id="addCandidate" action="/action_page.php" method="post">
+        <input id="candidateinput" type="text" name="fname" required>
+        <button style="font-size:24px" onclick="candidateslist()">Add <i class="fa fa-group"></i></button>
+        <!-- <input type="submit" value="Create"> -->
+    </form>
+
+
+    <ul id="candidateslist">
+
+    </ul>
+
+
+
+    <p type="text" id="show">
+
+    </p>
+    <button style="font-size:24px" onclick="like()">Like <i class="fa fa-thumbs-o-up"></i></button>
+    <!-- <button style="font-size:24px">Add <i class="fa fa-group"></i></button> -->
 
 
 
