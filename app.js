@@ -5,7 +5,7 @@ const candidates = [
 ]
 
 
-var likes = 0;
+var likes = 1;
 
 function like() {
     document.getElementById("show").innerHTML = likes;
@@ -22,16 +22,23 @@ function candidatesList() {
 
     newItem.appendChild(text)
 
-    document.getElementById('candidatesList').appendChild(newItem)
+    candidates.push(newItem);
+
+    output.innerHTML = list()
+
+    // document.getElementById('candidatesList').appendChild(newItem)
 }
 
-// function list() {
-// for (var i = 0; i < candidates.length; i++) {
-// document.write((i + 1) + ": " + candidates[i] + "<br/>")
+function list() {
+    // candidateInput.push(candidates);
+    for (var i = 0; i < candidates.length; i++) {
+        document.getElementById("output").innerHTML = (i + 1) + ": " + candidates[i] + "<br/>"
 
-// }
-// }
+    }
+}
 
-// const output = document.getElementById("output");
-// output.innerHTML = 'The current messages are: ';
-// output2.innerHTML = list().innerHTML;
+//         const output = document.getElementById("output");
+//         output.innerHTML = 'The current messages are: ';
+//         output2.innerHTML = list().innerHTML;
+//     }
+// }
