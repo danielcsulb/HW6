@@ -6,16 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daniel Mendia HW 6</title>
+    <link rel="stylesheet" href="/Users/daniel/dropbox/is445/git/HW6/reset.css">
     <link rel="stylesheet" href="/Users/daniel/dropbox/is445/git/HW6/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <div id="body">
+    <h1>Candidate List HW 6</h1>
+
+    <div id="Form">
+        <!-- <h3> -->
+        <!-- Create a Candidate -->
+        <!-- </h3> -->
+
+        <form id="candidateForm">
+            <h3>Create a Candidate</h3>
+            <input style="font-size:20px" type="text" id="candidateInput" placeholder="Name">
+            <button style="font-size:20px" onclick="createCandidate()">Create<i class="fa fa-user-plus"></i></button>
+        </form>
+        </p>
+        </p>
+    </div>
 
 
     <div id="Output">
 
-        <h3>Candidate List</h3>
+        <!-- <h1>Candidate List</h1> -->
 
 
         <table id="candidateTable">
@@ -35,8 +51,8 @@
                     <td>
                         <p id="likeNum"> 700 </p>
                     </td>
-                    <td><button style="font-size:24px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button></td>
-                    <td><button style="font-size:24px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button></td>
+                    <td><button style="font-size:20px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td><button style="font-size:20px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button></td>
             </tr>
 
             <tr>
@@ -45,8 +61,8 @@
                     <td>
                         <p id="likeNum"> 135 </p>
                     </td>
-                    <td><button style="font-size:24px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button></td>
-                    <td><button style="font-size:24px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button></td>
+                    <td><button style="font-size:20px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td><button style="font-size:20px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button></td>
             </tr>
             <tr>
                 <p id="candidateName">
@@ -54,8 +70,8 @@
                     <td>
                         <p id="likeNum"> 0 </p>
                     </td>
-                    <td><button style="font-size:24px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button></td>
-                    <td><button style="font-size:24px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button></td>
+                    <td><button style="font-size:20px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td><button style="font-size:20px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button></td>
             </tr>
 
         </table>
@@ -64,9 +80,9 @@
     </div>
 
 
-    <div id="Form">
+    <!-- <div id="Form">
         <h3>
-            <center>Create a Candidate</center>
+            Create a Candidate
         </h3>
 
         <form id="candidateForm">
@@ -75,7 +91,7 @@
         </form>
         </p>
         </p>
-    </div>
+    </div> -->
 
 </div>
 
