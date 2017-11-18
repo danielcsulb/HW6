@@ -80,3 +80,11 @@ p {
     padding: 2px;
     margin: 3px;
 }
+
+tbody {
+    font-size: 20px;
+    padding: 2px;
+    margin: 3px;
+    float: left;
+    width: 70%;
+}

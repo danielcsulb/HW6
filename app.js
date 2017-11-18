@@ -46,6 +46,6 @@ function createCandidate() {
     cell2.innerHTML = '<p id ="likeNum"> 0 </p>';
     cell3.innerHTML = '<button style="font-size:20px" onclick="addLike(this)">Like <i class="fa fa-thumbs-o-up"></i></button>';
     cell4.innerHTML = '<button style="font-size:20px" onclick="deleteRow(this)">Delete <i class="fa fa-eraser"></i></button>';
-    document.getElementById('candidateForm').innerHTML = '<input style="font-size:20px" type="text" id="candidateInput" placeholder="Name"><button style="font-size:20px" onclick="createCandidate()">Create<i class="fa fa-user-plus"></i></button>';
+    document.getElementById('candidateForm').innerHTML = '<h3>Create a Candidate</h3><input style="font-size:20px" type="text" id="candidateInput" placeholder="Name"><button style="font-size:20px" onclick="createCandidate()">Create<i class="fa fa-user-plus"></i></button>';
 
 }
