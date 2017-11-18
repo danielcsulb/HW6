@@ -1,11 +1,14 @@
-#output {
+body {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+form {
     float: left;
 }
 
-#output2 {
+output {
     float: left;
-}
-
-#createcanditate {
-    float: right;
 }
